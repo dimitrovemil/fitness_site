@@ -1,0 +1,100 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+  --clr-red: #d11919;
+  --clr-white: #dfff;
+ 
+}
+
+body {
+  font-family: 'PT', sans-serif;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.header i:not(:last-child){
+  padding-right: 5px;
+}
+
+/* Hero */
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav .nav-item {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .nav-item .nav-link {
+  text-decoration: none;
+  color: var(--clr-white);
+  letter-spacing: 1.1px;
+  line-height: 1;
+}
+
+.nav-container {
+  background-image: url(./image/fitness-main.jpg);
+}
+
+/* Welcome */
+.welcome {
+  padding: 6rem 10rem;
+}
+
+.welcome .welcome-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.section-grid-item .img-container img{
+  display: inline-block;
+  height: 50px;
+}
+
+.section-grid .section-grid-item {
+  text-align: center;
+}
+
+.section-grid-item .title{
+  color: var(--clr-red);
+}
+
+.coaches {
+  background-color: #efefef;
+}
+
+.coaches .coaches-title {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* Footer */
+
+footer {
+  background-color: var(--clr-red);
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+
+
+
